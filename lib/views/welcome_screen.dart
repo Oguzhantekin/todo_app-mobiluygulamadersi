@@ -19,6 +19,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[
+                Text("welcome"),
                 RoundedButton(
                   colour: Colors.lightBlueAccent,
                   title: 'Log In',
